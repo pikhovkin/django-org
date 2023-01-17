@@ -12,7 +12,7 @@ require_all = requirements + require_select2
 
 setup(
     name='django-org',
-    version='0.1.0',
+    version='0.2.0',
     description='Base classes for enterprise modeling',
     long_description=readme,
     long_description_content_type='text/markdown',
@@ -26,7 +26,7 @@ setup(
         'all': require_all,
         'select2': require_select2,
     },
-    python_requires='>=3.9.*, <4.0.*',
+    python_requires='>=3.9.*, <4.2.*',
     license='MIT',
     zip_safe=False,
     classifiers=[
@@ -42,6 +42,7 @@ setup(
         'Programming Language :: Python :: 3 :: Only',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
     ],
     keywords=[
         'django',
