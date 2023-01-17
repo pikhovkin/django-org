@@ -34,6 +34,7 @@ jobs:
         pip install -e .[select2]
     - name: Test
       run: |
+        cd tests
         python manage.py test django_org
 
   deploy:
